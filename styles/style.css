@@ -1,0 +1,66 @@
+body{
+  height: 100%;
+}
+
+.header {
+  height: auto;
+  background-color: rgb(210, 236, 228);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  
+  
+}
+
+.header-logo img{
+  width: 100px;
+  height: 90px;
+}
+
+/* -----Navigation bar */
+
+/* divs */
+.nav-bar{
+
+  position: relative;
+  width: 400px;
+}
+.nav-bar ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+   
+}
+/* for nav-bar a tag */
+
+.nav-bar ul li a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  position: fixed;
+}
+.nav-bar ul li a:hover{
+  font-weight: bold;
+}
+
+/* ---------path section----- */
+.two-paths {
+  background-color: blue;
+  width: 100%;
+  height: 100vh;
+  
+}
+.div-tako {
+  width: 100%;
+  height: 57.5%;
+  background-color: orange;
+}
+
+/* -----Tako----- */
+.content-tako img{
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+}
